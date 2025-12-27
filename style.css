@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  text-align: center;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px;
+}
+
+.card {
+  background: rgb(200, 200, 0);
+  padding: 20px;
+  width: 150px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#state {
+  font-weight: bold;
+  color: #2c3e50;
+}
+.img{
+    height: 500px;
+    width: 800px;
+}

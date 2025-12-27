@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>frontend-learning</title>
-    <link rel="stylesheet" href="styles.css">
-
+  <meta charset="UTF-8">
+  <title>Human Behavior Tracker</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Welcome to Frontend Learning</h1>
-    <script src="style.js"></script>
+<body class="back">
+<h1>Human Behavior Tracker</h1>
+<img class="img" src="https://tse1.mm.bing.net/th/id/OIP.AM7Pw6PIARwOJiT5xwznOgHaFj?rs=1&pid=ImgDetMain&o=7&rm=3" alt="rendom">
+<div class="dashboard">
+  <div class="card">Clicks: <span id="clicks">0</span></div>
+  <div class="card">Scroll Speed: <span id="scroll">0</span></div>
+  <div class="card">Mouse Moves: <span id="mouse">0</span></div>
+  <div class="card">Idle Time: <span id="idle">0</span>s</div>
+</div>
+
+<h2>User State: <span id="state">Analyzing...</span></h2>
+
+<script src="script.js"></script>
 </body>
 </html>
